@@ -33,8 +33,8 @@ def change_ip(vmess_link, new_ip):
 
 def main():
     input_file = "links.txt"  # Input file containing the Vmess links
-    output_file = "vv"  # Output file to save the modified Vmess links
-    new_ip = "54.171.208.223"  # New IP address to replace the old one
+    output_file = "sub"  # Output file to save the modified Vmess links
+    new_ip = "http://18.203.88.148/"  # New IP address to replace the old one
 
     # Read the Vmess links from the input file
     with open(input_file, "r") as file:
